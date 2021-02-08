@@ -2,9 +2,9 @@ name: CI to Docker Hub
 on:
   push:
     branches: [ main ]
-    jobs:
+jobs:
 
-  build:
+   build:
     runs-on: alpine
     steps:
     
